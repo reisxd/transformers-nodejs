@@ -6,7 +6,7 @@ This library is a fork of [praeclarum/transformers-js](https://github.com/praecl
 
 This isn't hard.
 
-````js
+```js
 import transformers from 'transformers-nodejs';
 
 const tokenizer = await transformers.AutoTokenizer.fromPretrained('./tokenizer.json');
