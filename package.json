@@ -1,0 +1,19 @@
+{
+  "name": "transformers-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "fmt": "prettier . --write && eslint . --fix"
+  },
+  "author": "Reis Can",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "onnxruntime-node": "^1.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "prettier": "2.8.1"
+  }
+}
